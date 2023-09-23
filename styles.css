@@ -1,18 +1,23 @@
 /*  your css code here. If applicable */
 
-tr.c1{
-	width : 200px;
-}
-tr.c2{
-	width : 600px;
-}
-tr.c3{
-	width : 200px;
+table.t{
+	 border: 1px solid #ccc;
 }
 img{
-	width : 95%;
+	width : 100%;
+	height : auto;
 	
 }
+.t td:first-child,
+.t td:last-child {
+    width: 200px;
+}
+
+
+.t .text-column {
+    width: 600px;
+}
+
 table,td, th{
 	border : 1px solid black;
 	height : 250px;

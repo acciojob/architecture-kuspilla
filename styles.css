@@ -1,34 +1,6 @@
-/*  your css code here. If applicable */
-
-table.t{
-	 border: 1px solid #ccc;
+body{
+	background-color: #cbd6cb;
 }
-img{
-	width : 100%;
-	height : auto;
-	
-}
-.t td:first-child,
-.t td:last-child {
-    width: 200px;
-}
-
-
-.t .text-column {
-    width: 600px;
-}
-
-table,td, th{
-	border : 1px solid black;
-	height : 250px;
-
-}
-
-*{
-	width : 1100px;
-	background-color : #dddd;
-}
-img.imageContainer{
-	width : 200px ;
-	
+#main p{
+	text-align: center;
 }
